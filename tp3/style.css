@@ -31,9 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -68,4 +67,116 @@ header>h1{
 	background-color: #FFF;
 	margin: auto;
 	margin-bottom: 30px;
+}
+nav ul{
+    border-bottom:solid black 2px ;
+
+}
+nav li{
+	display: inline-block;
+	width: calc(25% - 5px);
+	height: 30px;
+	line-height: 30px;
+	border-right: solid black 2px;
+	text-align: center;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.lastList{
+	border-right: solid black 0px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000;
+	background-color: #FFF;
+	display: block;
+}
+
+
+.Title{
+	height: 80px;
+	line-height: 80px;
+	vertical-align: top;
+	margin-left: 20px;
+	font-weight: bold;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+#textright{
+	text-align: justify;
+    padding: 20px 40px 20px 40px;
+}
+#textright aside{
+    background-color: lightyellow;
+	width: 240px;
+	padding: 15px;
+	margin: 0px 0px 20px 20px;
+}
+
+#textright aside>h2{
+    font-weight: bolder;
+}
+#textright p{
+    text-indent: 20px;
+    text-align: justify;
+}
+#textright aside{
+	float: right;
+}
+.centerimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#middlepart{
+    padding: 20px 40px 20px 40px;
+}
+
+#middlepart p{
+    text-indent: 20px;
+    text-align: justify;
+}
+#middlepart ol{
+    padding: 10px 0px 0px 30px;
+    font-weight: bold;
+}
+#middlequote{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#middlequote h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.lowcentername{
+    padding-left: 20%;
+}
+.lowcenterbook{
+    font-style: italic;
+}
+
+#paragraph{
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px 40px 20px 40px;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+th{
+    font-weight: bold;
+}
+.centervalue{
+    text-align: center;
+}
+.addpadd{
+    padding-left: 40px;
 }

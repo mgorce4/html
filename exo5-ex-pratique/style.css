@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: rgb(44,107,75);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#container{
+	width: 80%;
+	min-height: 300px;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title{
+	height: 80px;
+	line-height: 80px;
+	vertical-align: top;
+	margin-left: 20px;
+	font-weight: bold;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+
+.lastList{
+	border :0px;
+}
+#paragraph{
+    text-align: justify;
+    padding: 20px 40px 20px 40px;
+}
+.smalltitle{
+	height: 80px;
+	line-height: 80px;
+	vertical-align: top;
+	margin-left: 20px;
+	font-weight: bold;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+table, th, td {
+    border: 1px solid;
+	font-size: medium;
+	text-align: center
+	
+}
+
+th{
+    font-weight: bold;
+}
+
+.addpadd{
+    padding-left: 40px;
+	padding-bottom: 20px;
+}
+
+.topline{
+	border-top: solid black 2px;
+}
+.liline{
+	display: inline-block;
+	padding: 5px 10% 5px 10% ;
+
+}
+
+nav{
+	margin-top: 10px;
+}
+
+nav>ul{
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+nav>ul>li{
+	display: inline-block;
+	width: calc(20% - 4px);
+	border-right: solid 1px black;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+nav>ul>li>a{
+	text-decoration: none;
+	color: #000;
+	width: 100%;
+	display: block;
+}
+
+nav>ul>li>ul{
+	display: none;
+	position: absolute;
+	background-color: #FFF;
+}
+
+nav>ul>li:hover>ul{
+	display: block;
+	text-align: center;
+	border: solid 1px black;
+	width: 294px;
+}
+
+nav>ul>li>a:after{
+	content: " v";
+}
+
+nav>ul>li:hover>a:after{
+	content: " >";
+}
+
+footer{
+	border-top: solid 1px black;
+}
+
+footer ul:nth-child(1) li{
+	display: inline-block;
+	width: 33%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+footer ul:nth-child(2) li{
+	display: inline-block;
+	margin:0px 23% 0px 23%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
