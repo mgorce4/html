@@ -107,21 +107,31 @@ th{
 }
 
 nav{
-	margin-top: 10px;
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
 }
 
-nav>ul{
-	border-top: solid 1px black;
-	border-bottom: solid 1px black;
-}
-
-nav>ul>li{
+nav li{
 	display: inline-block;
-	width: calc(20% - 4px);
-	border-right: solid 1px black;
-	height: 40px;
-	line-height: 40px;
+	width: calc(20% - 6px);
+	height: 30px;
+	line-height: 30px;
+	border-right: solid black 2px;
 	text-align: center;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.lastList{
+	border-right: solid black 0px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000;
+	background-color: #FFF;
+	display: block;
 }
 
 nav>ul>li>a{
