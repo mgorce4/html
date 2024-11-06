@@ -175,7 +175,7 @@ nav a{
 }
 
 #textright{
-	border-top: solid black 2px;
+	border-top: solid black px;
 	text-align: justify;
     padding: 20px;
 }
