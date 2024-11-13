@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
 	body > header {
 		display: none;
 	}
@@ -16,7 +16,7 @@
 	}
 
 	main nav div {
-		width: calc(100% / 3);
+		width: calc(20%);
 	}
 
 	#actus article {
@@ -39,6 +39,6 @@
 	}
 
     #tableau table tr th, td{
-        width : calc(25% - 10px);
+        width : calc(25% - 30px);
     }
 }
