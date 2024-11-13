@@ -233,7 +233,6 @@ article {
 #tableau table{
 	margin-left: auto;
 	margin-right: auto;
-	width : calc(75% - 100px);
 }
 
 .fbleu {

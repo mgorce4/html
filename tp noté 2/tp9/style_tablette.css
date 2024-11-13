@@ -7,10 +7,6 @@
         width: 100%;
     }
 
-    #tableau table{
-        width : calc(50% - 100px);
-    }
-
     #tableau table tr th, td{
         padding : 10px;
         padding-left : 35px;
