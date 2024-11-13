@@ -38,7 +38,9 @@
 		margin: 10px 0;
 	}
 
-    #tableau table tr th, td{
-        width : calc(25% - 30px);
+	#tableau table tr th, td{
+        padding : 10px;
+        padding-left : 25px;
+        padding-right : 25px;
     }
 }
