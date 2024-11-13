@@ -33,14 +33,14 @@
 		height: 270px;
 		width: 391px;
 	}
-
-	#presentation p {
-		margin: 10px 0;
-	}
-
 	#tableau table tr th, td{
         padding : 10px;
         padding-left : 25px;
         padding-right : 25px;
     }
+
+	#presentation p {
+		margin: 10px 0;
+	}
+
 }
