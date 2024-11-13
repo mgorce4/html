@@ -1,0 +1,44 @@
+@media screen and (max-width: 900px) {
+	body > header {
+		display: none;
+	}
+
+	body > header, main, footer {
+		width: 85%;
+	}
+
+	#navhead {
+		justify-content: center;
+	}
+
+	#navhead input {
+		display: none;
+	}
+
+	main nav div {
+		width: calc(100% / 3);
+	}
+
+	#actus article {
+		width: 100%;
+	}
+
+	#etoile1 {
+		float: none;
+		margin: 20px auto;
+		display: block;
+
+
+		object-fit: cover;
+		height: 270px;
+		width: 391px;
+	}
+
+	#presentation p {
+		margin: 10px 0;
+	}
+
+    #tableau table tr th, td{
+        width : calc(25% - 10px);
+    }
+}

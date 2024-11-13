@@ -118,7 +118,7 @@ p
 	/*Right part*/
 		#rightPart
 		{
-			width: calc(25% - 44px);
+			width: calc(20%);
 			float: right;
 
 			margin-left: 10px;
